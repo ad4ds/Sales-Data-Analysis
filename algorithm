@@ -4,6 +4,7 @@ Set maxSales = 0
 Set bestProduct = ""
 
 FOR each product from 1 to number_of_products DO
+    productCount = productCount + 1
     Input productName
     Input productSales
 
