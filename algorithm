@@ -7,7 +7,7 @@ FOR each product from 1 to number_of_products DO
     Input productName
     Input productSales
 
-    IF productSales > maxSales THEN
+IF productSales >= maxSales THEN
         maxSales = productSales
         bestProduct = productName
     ELSE
